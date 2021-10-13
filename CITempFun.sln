@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CITempFun", "CITempFun\CITempFun.csproj", "{4CE16B57-C597-4CAB-BDBA-585A774E0013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CITempFunTests", "CITempFunTests\CITempFunTests.csproj", "{10A37644-8AE8-45CE-AB1A-7B55970FE4E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CE16B57-C597-4CAB-BDBA-585A774E0013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE16B57-C597-4CAB-BDBA-585A774E0013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE16B57-C597-4CAB-BDBA-585A774E0013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE16B57-C597-4CAB-BDBA-585A774E0013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A37644-8AE8-45CE-AB1A-7B55970FE4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A37644-8AE8-45CE-AB1A-7B55970FE4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A37644-8AE8-45CE-AB1A-7B55970FE4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A37644-8AE8-45CE-AB1A-7B55970FE4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

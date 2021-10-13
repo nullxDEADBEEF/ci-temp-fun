@@ -1,0 +1,32 @@
+version: 2.1
+
+orbs:
+  win: circleci/windows@2.4.0
+
+workflows:
+  build:
+    jobs:
+      - build
+  tests:
+    jobs:
+      - tests
+
+jobs:
+  build:
+    executor:
+      name: win/default
+    steps:
+      - checkout
+      - run:
+          name: "Run build step"
+          command: dotnet.exe build
+  tests:
+    executor:
+      name: win/default
+    steps:
+      - checkout
+      - run:
+          name: "Run tests"
+          command: |
+            cd CITempFunTests
+            dotnet.exe test
